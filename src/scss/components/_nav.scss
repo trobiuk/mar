@@ -1,12 +1,12 @@
 .nav {
-  margin-right: 69px;
+  margin-right: 72px;
 
   &__list {
     display: flex;
   }
 
-  &__item:not(:last-child) {
-    margin-right: 30px;
+  &__item {
+    @include mr(44px);
   }
 
   &__link {
