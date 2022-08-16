@@ -18,7 +18,10 @@ html {
   margin: 0;
   min-width: 320px;
   min-height: 100%;
+  font-weight: 400;
   font-size: 16px;
+  line-height: 22px;
+  color: var(--black-color);
 }
 
 img {
@@ -110,4 +113,12 @@ a {
 
 .page--ios .dis-scroll {
   position: relative;
+}
+
+.section-title {
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 65px;
+  text-align: center;
+  color: var(--black-color);
 }
